@@ -33,7 +33,7 @@ struct MainView: View {
     private func makeComponentsSection() -> some View {
         makeSection("🧩 Components") {
             NavigationLink("🕹 Button", destination: ButtonsView())
-            NavigationLink("🔏 TextField", destination: TextFieldsView())
+            NavigationLink("💬 TextField", destination: TextFieldsView())
         }
     }
 }
