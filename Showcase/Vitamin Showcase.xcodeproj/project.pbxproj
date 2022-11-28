@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30F95E44292FBA0500D6CEB7 /* TextFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F95E43292FBA0500D6CEB7 /* TextFieldsView.swift */; };
 		4A07433927D94BB0005BD446 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A07433827D94BB0005BD446 /* MainView.swift */; };
 		4A07433E27D9541F005BD446 /* NavigationTitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A07433D27D9541F005BD446 /* NavigationTitleModifier.swift */; };
 		4A35E4602811EE2E001526D8 /* Vitamin in Frameworks */ = {isa = PBXBuildFile; productRef = 4A35E45F2811EE2E001526D8 /* Vitamin */; };
@@ -23,6 +24,7 @@
 		4A35E4902816D1B5001526D8 /* TypographyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A35E48F2816D1B5001526D8 /* TypographyView.swift */; };
 		4A4643902806C91700942AD7 /* AssetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A46438F2806C91700942AD7 /* AssetsModel.swift */; };
 		4A4643932806D60B00942AD7 /* IconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4643922806D60B00942AD7 /* IconsView.swift */; };
+		4A4C0B1D292EB187002653E1 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C0B1C292EB187002653E1 /* TextFieldModel.swift */; };
 		4A91BAAE2864CC5C0032B31E /* IconsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91BAAD2864CC5C0032B31E /* IconsModel.swift */; };
 		4AAD2B67276772D200727D8E /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAD2B66276772D200727D8E /* MainTableViewController.swift */; };
 		4AB763AE2825725300092033 /* VitaminCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB763AD2825725300092033 /* VitaminCore */; };
@@ -80,6 +82,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30F95E43292FBA0500D6CEB7 /* TextFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsView.swift; sourceTree = "<group>"; };
 		4A07433827D94BB0005BD446 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4A07433A27D94C90005BD446 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		4A07433D27D9541F005BD446 /* NavigationTitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleModifier.swift; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 		4A35E48F2816D1B5001526D8 /* TypographyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographyView.swift; sourceTree = "<group>"; };
 		4A46438F2806C91700942AD7 /* AssetsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsModel.swift; sourceTree = "<group>"; };
 		4A4643922806D60B00942AD7 /* IconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsView.swift; sourceTree = "<group>"; };
+		4A4C0B1C292EB187002653E1 /* TextFieldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
 		4A91BAAD2864CC5C0032B31E /* IconsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsModel.swift; sourceTree = "<group>"; };
 		4AAD2B66276772D200727D8E /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		4ACCCBD42805E71400FD184B /* AssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsView.swift; sourceTree = "<group>"; };
@@ -327,6 +331,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		4A4C0B1B292EB187002653E1 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				4A4C0B1C292EB187002653E1 /* TextFieldModel.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		4A8962EF276366EB00D9B8E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -533,6 +545,7 @@
 			isa = PBXGroup;
 			children = (
 				659BBA7A288BEA2B00574333 /* ButtonsView.swift */,
+				30F95E43292FBA0500D6CEB7 /* TextFieldsView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -541,6 +554,7 @@
 			isa = PBXGroup;
 			children = (
 				659BBA7D288BFC6100574333 /* Button */,
+				4A4C0B1B292EB187002653E1 /* TextField */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -825,6 +839,7 @@
 				AAB029D1256805CC00F08C74 /* TypographyViewController.swift in Sources */,
 				4A35E48E2816D124001526D8 /* TypographyModel.swift in Sources */,
 				65F1BC1427CE2101002D08D8 /* AssetCollectionViewCell.swift in Sources */,
+				30F95E44292FBA0500D6CEB7 /* TextFieldsView.swift in Sources */,
 				4A35E47E2812FEDE001526D8 /* ColorsModel+Base.swift in Sources */,
 				65F1BC1527CE2101002D08D8 /* AssetsViewController.swift in Sources */,
 				65D1B6692787422100C1560B /* ShadowsViewController.swift in Sources */,
@@ -857,6 +872,7 @@
 				4ACCCBD52805E71400FD184B /* AssetsView.swift in Sources */,
 				4A91BAAE2864CC5C0032B31E /* IconsModel.swift in Sources */,
 				AA68B4CB25681A5A00F1A4D7 /* ButtonTableViewCell.swift in Sources */,
+				4A4C0B1D292EB187002653E1 /* TextFieldModel.swift in Sources */,
 				651EF24D272BE8D500121F7A /* TextFieldTableViewCell.swift in Sources */,
 				AAB029E925680D8D00F08C74 /* ColorTableViewCell.swift in Sources */,
 				65BD9F3E2768D06900EEDC0D /* IconCollectionViewCell.swift in Sources */,
@@ -1012,6 +1028,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6F8Y5QNU44;
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1032,6 +1049,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = EZELTPWNWS;
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
